@@ -18,7 +18,7 @@ public class CamelServiceRoute extends RouteBuilder{
 		         public void process(Exchange exchange) throws Exception {
 		             //getting the request object
 					 String req = (String) exchange.getIn().getBody();
-		             System.out.println("Message Body :" + req);
+		             System.out.println("Message Body from prigya :" + req);
 		             //req = req.substring(1,req.length()-1);
 		             System.out.println("req =" + req);
 		             exchange.getOut().setHeader(Exchange.CONTENT_TYPE, "application/json");
