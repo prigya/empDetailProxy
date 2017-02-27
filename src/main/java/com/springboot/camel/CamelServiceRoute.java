@@ -26,7 +26,7 @@ public class CamelServiceRoute extends RouteBuilder{
 			         exchange.getOut().setBody(req);
 				}
 		       })
-		.to("restlet: http://emp-time-record-camelintegrationmicroservicedemo.44fs.preview.openshiftapps.com?restletMethod=post");
+		.to("restlet:http://emp-time-record-camelintegrationmicroservicedemo.44fs.preview.openshiftapps.com?restletMethod=post");
 		
 		
 		
