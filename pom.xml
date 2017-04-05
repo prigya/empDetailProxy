@@ -13,7 +13,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>1.5.1.RELEASE</version>
+		<version>1.4.0.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
@@ -36,6 +36,7 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
+			<version>1.4.0.RELEASE</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.camel</groupId>
@@ -48,11 +49,12 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-				<dependency>
+		<dependency>
 			<groupId>org.apache.camel</groupId>
 			<artifactId>camel-core</artifactId>
 			<version>2.18.2</version>
-		</dependency>		<dependency>
+		</dependency>		
+		<dependency>
 			<groupId>org.apache.camel</groupId>
 			<artifactId>camel-spring</artifactId>
 			<version>2.18.2</version>
