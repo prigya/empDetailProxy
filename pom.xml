@@ -79,7 +79,7 @@
 			<plugin>
 			  <groupId>io.fabric8</groupId>
 			  <artifactId>hawt-app-maven-plugin</artifactId>
-			  <version>${fabric8.version}</version>
+			  <version>2.2.159</version>
 			  <executions>
 			    <execution>
 			      <id>hawt-app</id>
